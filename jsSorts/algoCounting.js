@@ -1,4 +1,13 @@
-//COUNTING SORT
+
+/* 
+ALGORITHM: Counting Sort
+SPACE COMPLEXITY: O(n+k)
+BEST CASE: O(n + k)
+AVERAGE CASE: O(n + k)
+WORST CASE: O(n + k)
+STABLE: Yes
+Method: Hashing
+*/
 
 // Javascript implementation of Counting Sort
 function sort(arr)
@@ -38,8 +47,7 @@ function sort(arr)
 
 	var arr = [ 'g', 'e', 'e', 'k', 's', 'f', 'o',
 				'r', 'g', 'e', 'e', 'k', 's' ];
-	arr = sort(arr);
+	arr2 = sort(arr);
 	console.log("Sorted character array is ");
-	for (var i = 0; i < arr.length; ++i)
-		console.log(arr[i]);
+	console.log(arr2);
 

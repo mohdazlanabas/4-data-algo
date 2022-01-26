@@ -1,4 +1,4 @@
-/* LinkedList */
+/* LNKEDLIST */
 
 function LinkedList() { 
     var length = 0; 

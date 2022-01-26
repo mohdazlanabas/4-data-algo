@@ -1,4 +1,4 @@
-/* Stacks! */
+/* STACKS */
 
 // functions: push, pop, peek, length
 

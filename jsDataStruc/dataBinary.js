@@ -1,4 +1,4 @@
-/* Binary Search Tree */
+/* BINARY SEARCH TREE */
 
 class Node {
     constructor(data, left = null, right = null) {

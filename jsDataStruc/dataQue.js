@@ -1,4 +1,4 @@
-/* Queues */
+/* QUEUES */
 
 function Queue () { 
     collection = [];

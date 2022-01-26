@@ -39,7 +39,7 @@ const merge = (leftArr, rightArr) => {
 
     while (leftIndex < leftArr.length || rightIndex < rightArr.length) {
         const leftEl = leftArr[leftIndex];
-        const rightEl=rightArr[rightIndex];
+        const rightEl= rightArr[rightIndex];
 
         if (leftEl < rightEl) {
             output.push(leftEl);

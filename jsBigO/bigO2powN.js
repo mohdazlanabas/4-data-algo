@@ -5,15 +5,16 @@ var startTime = performance.now() // TIMER DONT TOUCH
 let n = (1000000 * 1000000)
 console.log(n);
 
-// function fib(n) {
+function fib(n) {
     if (n === 0) {
     return 0;
     }
     if (n === 1) {
         return 1;
     }
-    returnfib(n-1) + fib(n-2);
+    return fib(n-1) + fib(n-2);
 
+}
 
 //BELOW TIMER DONT TOUCH
 var endTime = performance.now() 
