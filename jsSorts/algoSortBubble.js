@@ -1,3 +1,13 @@
+/* 
+ALGORITHM: Bubble Sort
+SPACE COMPLEXITY: O(1)
+BEST CASE: O(n * log n)
+AVERAGE CASE: O(n * log n)
+WORST CASE: O(n^2)
+STABLE: Yes
+Method: Exchanging
+*/
+
 // ARRAY GENERATOR
 
 randomNumber1 = (Math.random()*10+9);

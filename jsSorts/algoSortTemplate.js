@@ -1,11 +1,11 @@
 /* 
-ALGORITHM: Selection Sort
-SPACE COMPLEXITY: O(1)
+ALGORITHM: ?? Sort
+SPACE COMPLEXITY: O(n)
 BEST CASE: O(n * log n)
-AVERAGE CASE: O(n * log n)
-WORST CASE: O(n^n)
-STABLE: No
-Method: Selection
+AVERAGE CASE: O(n^ log n)
+WORST CASE: O(n*log n)
+STABLE: ??
+Method: ??
 */
 
 // ARRAY GENERATOR
@@ -26,37 +26,33 @@ for(let k = 0; k < arrayLength; k++) {
 //    console.log(arrayOld);
 }  
 
-// DONT TOUCH ABOVE
-// SORT ALGORITHM: BUBBLE
 
 const arr = arrayOld;
 var startTime = performance.now()
 count = 0
-function selectionSort(array) {
-    const arr = array.slice();
 
-        for(let i = 0; i < arr.length-1; i++) {
-            let minIndex = i;
-            for (let j = i + 1; j < arr.length; j++) {
-                if(arr[j] < arr[minIndex]) {
-                    minIndex = j;
-                    count = count + 1
-                        console.log (i,j);
-                }
-            }
-            [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
-        }
-        return arr;
-}
+// entry point => arr
+// function bubbleSort(array) {
+//    const arr = array.slice();
+
+// DONT TOUCH ABOVE
+// SORT ALGORITHM: BUBBLE
+
+
+/* 
+CODE GOES HERE
+*/
+
+
 
 // DONT TOUCH BELOW
 //SORT OUTPUT
 
 let textBefore = arr.toString();
-let textAfter = selectionSort(arr).toString()
+let textAfter = bubbleSort(arr).toString() // add function i.e. buddlesort
 
+console.log("\nALGORITHM: ??? ")
 console.log("\nIterations: - commented out -")
-console.log("\nALGORITHM: SELECTION SORT")
 
 console.log("Array Length is = " + (arr.length))
 

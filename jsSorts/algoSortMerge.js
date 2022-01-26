@@ -1,3 +1,13 @@
+/* 
+ALGORITHM: Merge Sort
+SPACE COMPLEXITY: O(n)
+BEST CASE: O(n * log n)
+AVERAGE CASE: O(n^ log n)
+WORST CASE: O(n*log n)
+STABLE: Yes
+Method: Merging
+*/
+
 // ARRAY GENERATOR
 
 randomNumber1 = (Math.random()*10+9);

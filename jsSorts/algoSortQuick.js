@@ -1,3 +1,13 @@
+/* 
+ALGORITHM: Quick Sort
+SPACE COMPLEXITY: O(1)
+BEST CASE: O(n * log n)
+AVERAGE CASE: O(n^ log n)
+WORST CASE: O(n^n)
+STABLE: No
+Method: Partitioning
+*/
+
 // ARRAY GENERATOR
 
 randomNumber1 = (Math.random()*10+9);

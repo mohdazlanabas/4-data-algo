@@ -1,3 +1,13 @@
+/* 
+ALGORITHM: Indertion Sort
+SPACE COMPLEXITY: O(1)
+BEST CASE: O(n^ log n)
+AVERAGE CASE: O(n * log n)
+WORST CASE: O(n^n)
+STABLE: Yes
+Method: Insertion
+*/
+
 // ARRAY GENERATOR
 
 randomNumber1 = (Math.random()*10+9);
